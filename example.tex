@@ -1,0 +1,262 @@
+% This example is meant to be compiled with lualatex or xelatex
+% The theme itself also supports pdflatex
+\PassOptionsToPackage{unicode}{hyperref}
+\documentclass[aspectratio=1610, 9pt]{beamer}
+
+% Warning, if another latex run is needed
+% \usepackage[aux]{rerunfilecheck}
+
+% just list chapters and sections in the toc, not subsections or smaller
+\setcounter{tocdepth}{1}
+
+%------------------------------------------------------------------------------
+%------------------------------ Fonts, Unicode, Language ----------------------
+%------------------------------------------------------------------------------
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}  % -- becomes en-dash etc.
+
+% german language
+\usepackage{polyglossia}
+\setdefaultlanguage{german}
+
+% for english abstract and english titles in the toc
+\setotherlanguages{english}
+
+% intelligent quotation marks, language and nesting sensitive
+\usepackage[autostyle]{csquotes}
+
+% microtypographical features, makes the text look nicer on the small scale
+\usepackage{microtype}
+
+%------------------------------------------------------------------------------
+%------------------------ Math Packages and settings --------------------------
+%------------------------------------------------------------------------------
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{bbold}
+
+% Enable Unicode-Math and follow the ISO-Standards for typesetting math
+\usepackage[
+  math-style=ISO,
+  bold-style=ISO,
+  sans-style=italic,
+  nabla=upright,
+  partial=upright,
+]{unicode-math}
+\setmathfont{Latin Modern Math}
+
+% nice, small fracs for the text with \sfrac{}{}
+\usepackage{xfrac}
+
+
+%------------------------------------------------------------------------------
+%---------------------------- Numbers and Units -------------------------------
+%------------------------------------------------------------------------------
+
+\usepackage[
+  locale=DE,
+  separate-uncertainty=true,
+  per-mode=symbol-or-fraction,
+]{siunitx}
+\sisetup{math-micro=\text{µ},text-micro=µ}
+% \sisetup{tophrase={{ to }}}
+%------------------------------------------------------------------------------
+%-------------------------------- tables  -------------------------------------
+%------------------------------------------------------------------------------
+
+\usepackage{booktabs}       % \toprule, \midrule, \bottomrule, etc
+
+%------------------------------------------------------------------------------
+%-------------------------------- graphics -------------------------------------
+%------------------------------------------------------------------------------
+
+\usepackage{graphicx}
+%\usepackage{rotating}
+\usepackage{grffile}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\usepackage{tikz-feynman}
+\usepackage{subcaption}
+
+% allow figures to be placed in the running text by default:
+\usepackage{scrhack}
+\usepackage{float}
+\floatplacement{figure}{htbp}
+\floatplacement{table}{htbp}
+
+% keep figures and tables in the section
+\usepackage[section, below]{placeins}
+
+
+%------------------------------------------------------------------------------
+%---------------------- customize list environments ---------------------------
+%------------------------------------------------------------------------------
+
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{hepunits}
+
+\usepackage{pdfpages}
+%------------------------------------------------------------------------------
+%------------------------------ Bibliographie ---------------------------------
+%------------------------------------------------------------------------------
+
+\usepackage[
+  backend=biber,   % use modern biber backend
+  autolang=hyphen, % load hyphenation rules for if language of bibentry is not
+                   % german, has to be loaded with \setotherlanguages
+                   % in the references.bib use langid={en} for english sources
+]{biblatex}
+\addbibresource{references.bib}  % the bib file to use
+\DefineBibliographyStrings{german}{andothers = {{et\,al\adddot}}}  % replace u.a. with et al.
+
+
+% Load packages you need here
+% \usepackage{polyglossia}
+% \setmainlanguage{german}
+
+\usepackage{csquotes}
+
+
+% \usepackage{amsmath}
+% \usepackage{amssymb}
+% \usepackage{mathtools}
+
+\usepackage{hyperref}
+\usepackage{bookmark}
+
+% load the theme after all packages
+
+\usetheme[
+  showtotalframes, % show total number of frames in the footline
+]{tudo}
+
+% Put settings here, like
+\unimathsetup{
+  math-style=ISO,
+  bold-style=ISO,
+  nabla=upright,
+  partial=upright,
+  mathrm=sym,
+}
+
+%Titel:
+\title{Das Muon Puzzle}
+%Autor
+\author[N.Breer]{Nils Breer}
+%Lehrstuhl/Fakultät
+\institute{Fakultät Physik}
+%Titelgrafik muss ich einfueren!!!
+%\titlegraphic{\includegraphics[width=0.3\textwidth]{content/Bilder/interferenz.jpg}}
+\date{17.06.2022}
+
+\begin{document}
+\maketitle
+
+\begin{frame}\frametitle{Agenda}
+  \begin{itemize}
+    \item Was ist das Muon Puzzle?
+    \item Was sind kosmische Strahlen? (notes: Flux, Klassifikation)
+    \item Luftschauer und was wir aus ihnen lernen
+    \item Was bedarfs an Experimenten?
+    \item Was ist nun mit dem Puzzle?
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Probleme im Zusammenhang mit dem Muon Puzzle}
+  \begin{itemize}
+    \item Grundlage ist das studieren von kosmischer Strahlen durch Luftschauer
+    in der Atmosphäre
+    \item Aus Distanz- und Energiegr\"unden werden QCD Modelle unter extremen
+    Bedingungen auf die Probe gestellt
+    \item Luftschauer in der Atmosphäre bilden hadronische Kaskaden die Muonen
+    im Endzustand aufweisen
+    \item Hauptsächlich 10 bis 100 GeV Muonen
+    \item Simulation zeigt starkes defizit in Muonen gg\"u. gemessenen auf
+    \item Diskrepanzen nicht erklärbar
+    \item Phänomen schon bei 8 TeV Luftschauer beobachtbar, auch potenziell am LHC
+    \item also warum passiert das?
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Was sind kosmische Strahlen}
+  \begin{itemize}
+    \item Ionisierte kerne, hochenergetische geladene Teilchen mit relativistischen
+    Energien
+    \item von Protonen bis zu Eisen
+    \item unbekannte extragalaktische Herkunft ausserhalb des Sonnensystems
+    \item Differentieller Fluss J(E) proportional zu dN / dE circa $E^\alpha$
+    mit $\alpha = 2.6$ um die enorme Skala abzubilden
+    \item Energieskala 11 Größenordnungen, Fluss 30 Größenordnungen
+    \item Viele Experimente versuchen die Skala vollständig zu beschreiben
+    \item Diffuser Fluss der kosmischen Strahlen durch das Universum wegen 
+    inhomogener Felder
+    \item
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{}
+  \begin{itemize}
+    \item a
+    \item b
+    \item c
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Muon Messungen und Modelle}
+  \begin{itemize}
+    \item d
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{M\"ogliche L\"osungen f\"ur das Puzzle}
+  \begin{itemize}
+    \item e
+  \end{itemize}
+\end{frame}
+
+%%% hier muss siunitx eingebunden werden
+
+\begin{frame}\frametitle{Zusammenfassung}
+  \begin{itemize}
+    \item Muon Defizit klar erkennbar in Luftschauern mit 8\sigma
+    \item Wichtige Beitr\"age von IceCube und Auger an modell-abh\"angigen Messungen
+    \item $\sqrt{S_{NN}} \approx \SI{8}{\tera\electronvolt}$ mit linearem Anstieg in $\symup{log}(E)$ -> hoch energie messungen am LHC
+    \item Naheliegendste Erkl\"arung: kleine modifikation in hadron produktion welches der energiebeitrag der photonen reduziert. meist aus $\pi^{0}$ Zerf\"allen
+    \item kleine modifikationen haben nahezu keinen Einfluss in heutigen Luftschauer simulationen deswegen unentdeckt
+    \item erh\"ohte strageness produktion wurde von ALICE in der mid-rapidit\"ats region gemessen
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Quellen}
+\url{https://icecube.wisc.edu/science/icecube/detector} \\
+\url{https://micro.magnet.fsu.edu/primer/digitalimaging/concepts/photomultipliers.html} \\
+\url{http://antares.in2p3.fr/} \\
+\url{https://ecap.nat.fau.de/index.php/research/neutrino-astronomy/antares-km3net/} \\
+\url{http://www.km3net.org/} \\
+\url{https://baikalgvd.jinr.ru/} \\
+\url{https://masterok.livejournal.com/2364208.html} \\
+\url{https://arxiv.org/pdf/1412.5106.pdf} \\
+\url{https://www.epj-conferences.org/articles/epjconf/pdf/2019/14/epjconf_ricap2019_01015.pdf} \\
+\url{https://pos.sissa.it/358/890/pdf} \\
+\end{frame}
+
+\end{document}
+
+% \begin{frame}\frametitle{}
+%   \begin{columns}
+%   \begin{column}[c]{0.45\textwidth}
+%     \begin{itemize}
+%       \item
+%       \item
+%       \item
+%       \item
+%     \end{itemize}
+%   \end{column}
+%   \begin{column}[c]{0.45\textwidth}
+%     % \includegraphics{images/icecube.png}
+%   \end{column}
+%   \end{columns}
+% \end{frame}
