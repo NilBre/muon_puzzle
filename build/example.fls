@@ -1,4 +1,4 @@
-PWD /mnt/c/Users/Nils/Desktop/muon_puzzle
+PWD /mnt/c/Users/Nils/Desktop/master_5/muon/muon_puzzle
 INPUT /home/nils/.local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt
 INPUT ./example.tex
 OUTPUT build/example.log
