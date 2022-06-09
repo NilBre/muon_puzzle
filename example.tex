@@ -187,6 +187,20 @@
   \end{itemize}
 \end{frame}
 
+\begin{frame}{flux}
+  \includegraphics[width=\textwidth]{knee_heel.png}
+\end{frame}
+
+\begin{frame}{heel and knee plot, flux}
+  \begin{itemize}
+    \item Flux is scaled with $E^{2.6}$ -> many orders of magnitude
+    \item open sybols: shower experiments measurring "all particle CR flux"
+    \item coloured: flux of individual balloon and satelite measurements
+    \item empirical fit to the data (what is empirical?)
+    \item interesting part from above the knee at $\SI{1e6}{\giga\electronvolt}$.
+  \end{itemize}
+\end{frame}
+
 \begin{frame}\frametitle{What are cosmic rays?}
   \begin{itemize}
     \item discovered by Victor Hess in 1912 (balloon experiment)
@@ -239,38 +253,9 @@
 
 \begin{frame}\frametitle{Air Showers}
   \begin{itemize}
-    \item
-    \item
-    \item
-  \end{itemize}
-\end{frame}
-
-\begin{frame}\frametitle{Air Showers}
-  \begin{itemize}
-    \item
-    \item
-    \item
-  \end{itemize}
-\end{frame}
-
-\begin{frame}\frametitle{Muon Messungen und Modelle}
-  \begin{itemize}
-    \item d
-  \end{itemize}
-\end{frame}
-
-% new, merge request
-\begin{frame}{flux}
-  \includegraphics[width=\textwidth]{knee_heel.png}
-\end{frame}
-
-\begin{frame}{heel and knee plot, flux}
-  \begin{itemize}
-    \item Flux is scaled with $E^{2.6}$ -> many orders of magnitude
-    \item open sybols: shower experiments measurring "all particle CR flux"
-    \item coloured: flux of individual balloon and satelite measurements
-    \item empirical fit to the data (what is empirical?)
-    \item interesting part from above the knee at $\SI{1e6}{\giga\electronvolt}$.
+    \item picture?
+    \item description
+    \item more details
   \end{itemize}
 \end{frame}
 
@@ -298,40 +283,66 @@
     \end{column}
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
-        \item important features are shower depth maximum $X_{max}$ and muon Number $N_{\mu}$
-        \item
-        \item
-        \item
-        \item
-        \item
+        \item bands constructed from several measurements on air showers
+        \item mass-sensitive features: shower depth maximum $X_{max}$ and muon Number $N_{\mu}$
+        \item band width \to theoretical uncertainties (forward hadron production)
+        \item uncertainties prevent exclusion of theories on the CR origin
+        \item $N_{\mu}$ good discrimination between light and heavy rays at EeV scale
+        \item more usefull than $X_{max}$ because of few statistics of flourescence
+        \item experimental uncertainy is 10\percent
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
-\begin{frame}{even more puzzling}
+\begin{frame}\frametitle{experimental uncertainty measurements}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics{unc.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item precise air shower measurements
+        \item experimental uncertainty is 10\percent
+        \item factor 2.5 to 4 (E dependent) small than band width (theoretical unc.)
+        \item theo. unc. comes from shower simulation used to infer $ln(A)$ from $X_{max}$ and $N_{\mu}$
+        \item simulation essential: no way of calibrating since mass composition of any astrophysical source unknown
+        \item uncertainty from evolution of hadronic cascades; responsible for muon production at the end!
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame
+
+\begin{frame}{Now what is puzzling?}
   \begin{itemize}
-    \item something missing in generators for soft hadronic interactions
-    \item cms energy in atmosphere is approx. 8 TeV -> low enough for LHC to observe but not found yet
-    \item why? have not looked at the right spot!
-    \item cause is in the realm of soft hadronic interactions which occur at eta >= 2 range
-    \item use LHCb as instrumentation device because it has the correct eta range (2 to 5)
+    \item LHC has state-of-the-art softhadronic interaction models $=$ generators
+    \item generators always predict a lower muon Number than seen in measurements
+    \item prediction is nearly model-independent \to only small wiggle room
+    \item Muon discrepancy starts right after the "knee", increases with $ln(shower E)$
+    \item Discrepancy also seen in showers where first interaction of the CR has cms $=$ 8 TeV
+    \item why not observed yet al LHC?
+    \item have not looked at the right spot! wrong eta range for soft hadronic interactions (eta >= 2)
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Muon Messungen und Modelle}
+  \begin{itemize}
+    \item d
   \end{itemize}
 \end{frame}
 
 \begin{frame}{more to $N_\mu$}
   \begin{itemize}
-    \item $N_\mu$ is sensitive to energy fraction of carried away photons from pi_0 decays
+    \item $N_\mu$ is sensitive to energy fraction of carried away photons from $\pi_0$ decays
     \item ALICE saw universal strangeness enhancement in final states, resulting in less pions in mid rapidity range
     \item this was only seen in heavy ion collisions! hint?
   \end{itemize}
 \end{frame}
 
 %%% hier muss siunitx eingebunden werden
-
 \begin{frame}\frametitle{Possible solutions to the Puzzle}
   \begin{itemize}
-    \item e
+    \item use LHCb as instrumentation device because it has the correct eta range (2 to 5)
   \end{itemize}
 \end{frame}
 

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2022.2.5)  31 MAY 2022 13:11
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2022.2.5)  9 JUN 2022 13:11
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -909,12 +909,12 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Module polyglossia Info: Language data for german
-(polyglossia)            patterns	hyph-de-1901.pat.txt
 (polyglossia)            loader	loadhyph-de-1901.tex
-(polyglossia)            hyphenation	
-(polyglossia)            synonyms	
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            righthyphenmin	2 on input line 10
+(polyglossia)            hyphenation	
+(polyglossia)            patterns	hyph-de-1901.pat.txt
+(polyglossia)            righthyphenmin	2
+(polyglossia)            synonyms	 on input line 10
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 10
 Package polyglossia Info: Option: German, spelling=new.
@@ -2565,12 +2565,12 @@ LaTeX Info: Redefining \rmfamily on input line 22.
 LaTeX Info: Redefining \sffamily on input line 22.
 LaTeX Info: Redefining \ttfamily on input line 22.
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            patterns	hyph-de-1996.pat.txt
 (polyglossia)            loader	loadhyph-de-1996.tex
-(polyglossia)            hyphenation	
-(polyglossia)            synonyms	
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            righthyphenmin	2 on input line 22
+(polyglossia)            hyphenation	
+(polyglossia)            patterns	hyph-de-1996.pat.txt
+(polyglossia)            righthyphenmin	2
+(polyglossia)            synonyms	 on input line 22
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 22
 )
@@ -2879,16 +2879,9 @@ Package luatex.def Info: logos/tu.pdf  used on input line 156.
 <./logos/tu.pdf>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 166.
+Package luatex.def Info: logos/tu.pdf  used on input line 168.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
  [2
-
-]
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 182.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [3
 
 ]
 Package microtype Info: Loading generic protrusion settings for font family
@@ -2904,19 +2897,44 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 198.
+Package luatex.def Info: logos/tu.pdf  used on input line 179.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 
-[4
+[3
 
 ]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 206.
+Package luatex.def Info: logos/tu.pdf  used on input line 188.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+ [4
+
+]
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
+(Font)              scaled to size 5.5012pt on input line 202.
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
+(Font)              scaled to size 4.43153pt on input line 202.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 202.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
  [5
 
 ]
+LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
+(Font)              scaled to size 5.94267pt on input line 212.
+LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
+(Font)              scaled to size 5.89749pt on input line 212.
+LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
+(Font)              scaled to size 4.2125pt on input line 212.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 5.89813pt on input line 212.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 4.21295pt on input line 212.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 5.89696pt on input line 212.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 4.21211pt on input line 212.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 212.
@@ -2924,38 +2942,171 @@ Package luatex.def Info: logos/tu.pdf  used on input line 212.
  [6
 
 ]
-File: logos/tu.pdf Graphic file (type pdf)
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 218.
-(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [7
+<pierre.png, id=54, 664.4825pt x 567.11874pt>
+File: pierre.png Graphic file (type png)
+<use pierre.png>
+Package luatex.def Info: pierre.png  used on input line 216.
+(luatex.def)             Requested size: 425.24408pt x 362.93745pt.
 
-]
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 5.5012pt on input line 231.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 4.43153pt on input line 231.
+Overfull \vbox (160.75443pt too high) detected at line 216
+ []
+
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 231.
+Package luatex.def Info: logos/tu.pdf  used on input line 216.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+[7
+
+<./pierre.png>]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 225.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
  [8
+
+]
+<TCA.png, id=66, 460.72125pt x 328.22626pt>
+File: TCA.png Graphic file (type png)
+<use TCA.png>
+Package luatex.def Info: TCA.png  used on input line 229.
+(luatex.def)             Requested size: 425.24408pt x 302.94844pt.
+
+Overfull \vbox (100.76541pt too high) detected at line 229
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 229.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+[9
+
+<./TCA.png>]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 238.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+ [10
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 246.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+ [11
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 252.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+ [12
+
+]
+<knee_heel.png, id=89, 445.665pt x 223.58531pt>
+File: knee_heel.png Graphic file (type png)
+<use knee_heel.png>
+Package luatex.def Info: knee_heel.png  used on input line 257.
+(luatex.def)             Requested size: 425.24408pt x 213.34302pt.
+
+Overfull \vbox (9.45619pt too high) detected at line 257
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 257.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+[13
+
+<./knee_heel.png>]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 267.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+ [14
+
+]
+<lnA_left.png, id=101, 215.30438pt x 167.12437pt>
+File: lnA_left.png Graphic file (type png)
+<use lnA_left.png>
+Package luatex.def Info: lnA_left.png  used on input line 284.
+(luatex.def)             Requested size: 215.30385pt x 167.12395pt.
+
+Overfull \hbox (11.1885pt too wide) in paragraph at lines 284--284
+[][]  
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 284.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+[15
+
+<./lnA_left.png>]
+<lnA_right.png, id=108, 214.55156pt x 170.13562pt>
+File: lnA_right.png Graphic file (type png)
+<use lnA_right.png>
+Package luatex.def Info: lnA_right.png  used on input line 302.
+(luatex.def)             Requested size: 214.55103pt x 170.1352pt.
+
+Overfull \hbox (10.43568pt too wide) in paragraph at lines 302--302
+[][]  
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 302.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+[16
+
+<./lnA_right.png>]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 312.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+ [17
+
+]
+LaTeX Font Info:    Font shape `TU/FiraMath(1)/m/n' will be
+(Font)              scaled to size 8.42499pt on input line 320.
+LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
+(Font)              scaled to size 8.4259pt on input line 320.
+LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
+(Font)              scaled to size 8.42422pt on input line 320.
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 320.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+ [18
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 328.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+ [19
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf  used on input line 337.
+(luatex.def)             Requested size: 140.30132pt x 22.76271pt.
+ [20
 
 
 Missing character: There is no 𝜎 (U+1D70E) in font FiraSansLight:mode=harf;sc
 ript=latn;language=dflt;+tlig;!
 ]
 LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 7.58249pt on input line 244.
+(Font)              scaled to size 7.58249pt on input line 350.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMono' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf  used on input line 244.
+Package luatex.def Info: logos/tu.pdf  used on input line 350.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [9
+ [21
 
 ]
 \tf@nav=\write6
@@ -3028,17 +3179,17 @@ Package logreq Info: Writing requests to 'example.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 71012 strings out of 477811
+ 71293 strings out of 477811
  125016,3417909 words of node,token memory allocated
- 7972 words of node memory still in use:
-   55 hlist, 9 vlist, 5 rule, 4 disc, 16 local_par, 20 math, 245 glue, 16 kern, 
-96 penalty, 7 margin_kern, 518 glyph, 141 attribute, 77 glue_spec, 141 attribute
-_list, 4 write, 10 pdf_start_link, 10 pdf_end_link, 10 pdf_action, 32 pdf_colors
-tack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:10,2:292,3:252,4:220,5:406,6:40,7:1838,8:87,9:332,10:18,11:272
-
- 89329 multiletter control sequences out of 65536+600000
- 103 fonts using 39093471 bytes
+ 4169 words of node memory still in use:
+   53 hlist, 9 vlist, 5 rule, 4 disc, 8 local_par, 4 math, 87 glue, 28 kern, 34 
+penalty, 6 margin_kern, 235 glyph, 89 attribute, 77 glue_spec, 89 attribute_list
+, 4 write, 2 pdf_start_link, 2 pdf_end_link, 2 pdf_action, 16 pdf_colorstack, 1 
+pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
+   avail lists: 1:10,2:436,3:193,4:241,5:338,6:40,7:1907,8:136,9:334,10:20,11:17
+6
+ 89494 multiletter control sequences out of 65536+600000
+ 148 fonts using 49657403 bytes
  128i,18n,144p,1003b,2454s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/nils/.local/texlive/2021/texmf-dist/fonts/opentype/public/fira/FiraMono-R
 egular.otf></home/nils/.local/texlive/2021/texmf-dist/fonts/opentype/public/fira
@@ -3046,10 +3197,10 @@ math/FiraMath-Regular.otf></home/nils/.local/texlive/2021/texmf-dist/fonts/opent
 ype/public/firamath/FiraMath-Regular.otf></home/nils/.local/texlive/2021/texmf-d
 ist/fonts/opentype/public/fira/FiraSans-Medium.otf></home/nils/.local/texlive/20
 21/texmf-dist/fonts/opentype/public/fira/FiraSans-Light.otf>
-Output written on example.pdf (9 pages, 42606 bytes).
+Output written on example.pdf (21 pages, 958068 bytes).
 
-PDF statistics: 118 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 131072)
+PDF statistics: 188 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
