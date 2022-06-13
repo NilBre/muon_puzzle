@@ -158,10 +158,10 @@
 \begin{frame}\frametitle{Agenda}
   \begin{itemize}
     \item What is the Muon Puzzle?
-    \item Why do we want to study it?
     \item Cosmic rays and their behaviour with the atmosphere
     \item air shower: trivia and properties
     \item How do we measure these phenomena and which experiments are used?
+    \item Why do we want to study it?
     \item Other problems related to the muon puzzle
     \item possible solutions
   \end{itemize}
@@ -170,35 +170,16 @@
 \begin{frame}\frametitle{The Muon Puzzle}
   \begin{itemize}
     \item indirect observation of cosmic rays through air showers in atmosphere
-    \item interpretation -> accurate models of air shower physics (QCD extreme)
-    \item air showers -> hadronic cascades rich in muons
+    \item interpretation -> models for air shower physics (QCD extreme, large E)
     \item $N_\mu$ key observable for mass composition of CR
-    \item Simulation shows drastic Muon deficit compared to measurement! -> why?
-    \item visible at TeV scale -> LHC also didn't observe that!
+    \item Simulation shows drastic Muon deficit compared to measurement
+    \item Muon discrepancy starts right after the "knee", increases with $ln(shower E)$
+    \item Discrepancy also seen in showers where first interaction of the CR has cms $=$ 8 TeV
   \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{Why is solving the puzzle interesting}
-  \begin{itemize}
-    \item reduce the size of $N_\mu$ bands by a factor of 2.5 to 4
-    \item resolve ambiguity (mehrdeutigkeit) of cosmic ray mass composition at EeV level
-    \item improve hadronic interaction models for CR mass composition in simulation
-    \item more precision of lepton flux, main background for IceCube
-  \end{itemize}
-\end{frame}
-
-\begin{frame}{flux}
-  \includegraphics[width=\textwidth]{knee_heel.png}
-\end{frame}
-
-\begin{frame}{heel and knee plot, flux}
-  \begin{itemize}
-    \item Flux is scaled with $E^{2.6}$ -> many orders of magnitude
-    \item open sybols: shower experiments measurring "all particle CR flux"
-    \item coloured: flux of individual balloon and satelite measurements
-    \item empirical fit to the data (what is empirical?)
-    \item interesting part from above the knee at $\SI{1e6}{\giga\electronvolt}$.
-  \end{itemize}
+\begin{frame}\frametitle{Cosmic rays}
+  \includegraphics[width=0.8\textwidth]{CR_cta.png}
 \end{frame}
 
 \begin{frame}\frametitle{What are cosmic rays?}
@@ -207,21 +188,29 @@
     \item Fully ionised nuclei, from protons up to iron, negligible fractions
     to higher nuclei
     \item arriving earth with relativistic energies
-    \item come from unknown sources outside the solar system
+    \item origin: unknown sources outside solar system
     \item shock acceleration (< 1 PeV) in SNR, higher energies have unknown
     mechanisms, extra-galactic > 1 EeV
-    \item "Knee" spectrum CR occur 1 per $m^2$ per year
-    \item "Ankle" spectrum CR occur 1 per $\text{km}^2$ per century -> hard to study
-  \end{itemize}
-\end{frame}
-
-\begin{frame}\frametitle{More about cosmic rays}
-  \begin{itemize}
-    \item CR may come from point-like sources, don't appear as such -> isotropic flux
     \item charged and scattered through inhomogenous fields -> random arrival directions
     \item E < 100 TeV: directly observed by space-based experiments (AMS-02\footnote{Alpha Magnetic Spectrometer})
     \item higher energies: flux too low -> ground based experiments
     (Auger, Telescope Array) through particle showers
+    % \item "Knee" spectrum CR occur 1 per $m^2$ per year
+    % \item "Ankle" spectrum CR occur 1 per $\text{km}^2$ per century -> hard to study
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Cosmic ray flux}
+  \includegraphics[width=\textwidth]{knee_heel.png}
+\end{frame}
+
+\begin{frame}{Cosmic ray flux}
+  \begin{itemize}
+    \item Flux is scaled with $E^{2.6}$ -> many orders of magnitude
+    \item open sybols: shower experiments measuring "all particle CR flux"
+    \item coloured: flux of individual balloon and satelite measurements
+    \item empirical fit to the data (what is empirical?)
+    \item interesting part from above the knee at $\SI{1e6}{\giga\electronvolt}$.
   \end{itemize}
 \end{frame}
 
@@ -235,31 +224,51 @@
     \item CR Energies between $\num{1e17}$ and $\num{1e20}$ eV
     \item studies particle interactions with water tanks at surface
     \item tracking air showers through UV light in atmosphere
+    \item ground: duty cycle roughly 100\%
+    \item fluorescence: roughly 15\% (needs to be dark)
   \end{itemize}
 \end{frame}
 
 \begin{frame}{The Telescope Array}
-  \includegraphics[width=\textwidth]{TCA.png}
+  \includegraphics[width=0.8\textwidth]{TCA.png}
 \end{frame}
 
 \begin{frame}\frametitle{Telescope Array}
   \begin{itemize}
     \item hybrid experiment from many collaborations
     \item observe air showers from CR at highest energies
-    \item combination of air-flourescence (atmospheric trace) and groundbased
+    \item combination of air-flourescence (atmospheric trace) and ground-based
     \item scintillating trackers (footprint when reaching the surface)
   \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{Air Showers}
+\begin{frame}\frametitle{Air showers}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics{shower.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item CR interaction with atmosphere; production of daughter particles
+        \item generation of em- and hadronic cascades
+        \item primary particles: $\pi^0 \to \gamma \to e^{\pm}$...
+        \item $\pi^{\pm} \to \mu^{\pm}$ , \nu
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{air shower detection}
   \begin{itemize}
-    \item picture?
-    \item description
-    \item more details
+    \item fluorescence light from nitrogen
+    \item Cherenkov light in water tanks at ground level
+    \item accurate arrival direction and particle composition at ground -> muon number (10 - 100 GeV)
+    \item better accuracy: build ground array close to $X_{max}$ (maximum number of secondary particles)
+    \item golden standard: use both to test hadronic interaction models
   \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{logarithmic mass prediction}
+\begin{frame}\frametitle{mean logarithmic mass prediction}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
       \includegraphics{lnA_left.png}
@@ -289,7 +298,7 @@
         \item uncertainties prevent exclusion of theories on the CR origin
         \item $N_{\mu}$ good discrimination between light and heavy rays at EeV scale
         \item more usefull than $X_{max}$ because of few statistics of flourescence
-        \item experimental uncertainy is 10\percent
+        \item experimental uncertainy is 10\%
       \end{itemize}
     \end{column}
   \end{columns}
@@ -303,7 +312,7 @@
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
         \item precise air shower measurements
-        \item experimental uncertainty is 10\percent
+        \item experimental uncertainty is 10\%
         \item factor 2.5 to 4 (E dependent) small than band width (theoretical unc.)
         \item theo. unc. comes from shower simulation used to infer $ln(A)$ from $X_{max}$ and $N_{\mu}$
         \item simulation essential: no way of calibrating since mass composition of any astrophysical source unknown
@@ -311,31 +320,59 @@
       \end{itemize}
     \end{column}
   \end{columns}
-\end{frame
+\end{frame}
+
+\begin{frame}{$N_\mu$ calculation from simulation}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics{HM_model.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item Solving the puzzle requires improvements of simulation -> solving cascade equations
+        \item Heitler-Matthews model connects quantities: primary E, $N_{\mu}$, $X_{max}$
+        \item low energiy event generators have small impact on muon number (too small to be tye cause) -> look at higher energies
+        \item hadronic interaction model largest source of uncertainties
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{WHISP group and discrepancy measurements}
+  \begin{itemize}
+    \item WHISP : Working group for Hadronic Interactions and Shower Physics
+    \item formed by several experiments to increase significance by viewing more phase space
+    \item develop common framework to compare measurements, direct comparison often not possible (shower age, E, lateral distance from axis, ...)
+    \item Pierre Auger was first with nearly model-independent measurement
+    \item abstract muon z-scale: $z = \frac{ln(N_\mu) - ln(N_\mu)_p}{ln(N_\mu)_{FE} - ln(N_\mu)_p}$
+    \item to cancel potential biases, insensitive to mismodelling of $N_{\mu}$
+    \item range: 0 < z < 1
+  \end{itemize}
+\end{frame}
+
 
 \begin{frame}{Now what is puzzling?}
   \begin{itemize}
-    \item LHC has state-of-the-art softhadronic interaction models $=$ generators
+    \item LHC has state-of-the-art soft hadronic interaction models $=$ generators
     \item generators always predict a lower muon Number than seen in measurements
     \item prediction is nearly model-independent \to only small wiggle room
-    \item Muon discrepancy starts right after the "knee", increases with $ln(shower E)$
-    \item Discrepancy also seen in showers where first interaction of the CR has cms $=$ 8 TeV
-    \item why not observed yet al LHC?
+    \item why not observed yet at LHC?
     \item have not looked at the right spot! wrong eta range for soft hadronic interactions (eta >= 2)
   \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{Muon Messungen und Modelle}
-  \begin{itemize}
-    \item d
-  \end{itemize}
-\end{frame}
+% \begin{frame}\frametitle{Muon Messungen und Modelle}
+%   \begin{itemize}
+%     \item d
+%   \end{itemize}
+% \end{frame}
 
-\begin{frame}{more to $N_\mu$}
+\begin{frame}\frametitle{Why is solving the puzzle interesting}
   \begin{itemize}
-    \item $N_\mu$ is sensitive to energy fraction of carried away photons from $\pi_0$ decays
-    \item ALICE saw universal strangeness enhancement in final states, resulting in less pions in mid rapidity range
-    \item this was only seen in heavy ion collisions! hint?
+    \item reduce the size of $N_\mu$ bands by a factor of 2.5 to 4
+    \item resolve ambiguity (mehrdeutigkeit) of cosmic ray mass composition at EeV level
+    \item improve hadronic interaction models for CR mass composition in simulation
+    \item more precision of lepton flux, main background for IceCube
   \end{itemize}
 \end{frame}
 
@@ -358,9 +395,9 @@
 \begin{frame}\frametitle{Quellen}
 \url{http://www.telescopearray.org/index.php/about/telescope-array} \\
 \url{https://www.researchgate.net/figure/A-schematic-of-the-Pierre-Auger-Observatory-where-each-black-dot-is-a-water-Cherenkov_fig1_319524774} \\
-% \url{http://antares.in2p3.fr/} \\
-% \url{https://ecap.nat.fau.de/index.php/research/neutrino-astronomy/antares-km3net/} \\
-% \url{http://www.km3net.org/} \\
+\url{https://www.cta-observatory.org/pevatrons-hunt-for-galactic-cosmic-rays/} \\
+\url{https://arxiv.org/pdf/2105.06148.pdf} \\
+\url{https://doi.org/10.1007/978-3-319-63411-1_1} \\
 % \url{https://baikalgvd.jinr.ru/} \\
 % \url{https://masterok.livejournal.com/2364208.html} \\
 % \url{https://arxiv.org/pdf/1412.5106.pdf} \\
