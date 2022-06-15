@@ -187,10 +187,10 @@
 \begin{frame}\frametitle{Cosmic rays}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
-      \includegraphics[width=0.6\textwidth]{CR_cta.png}
-    \end{}
+      \includegraphics[width=0.9\textwidth]{CR_cta.png}
+    \end{column}
     \begin{column}[c]{0.48\textwidth}
-      messengers of high-energy universe
+      \textbf{Messengers of high-energy universe}
       \begin{itemize}
         \item gamma rays: many of them, straight from the source, E < 100 TeV
         \item neutrinos: straight from source, very rare but can be high energetic
@@ -217,7 +217,7 @@
 \end{frame}
 
 \begin{frame}{Cosmic ray flux}
-  \includegraphics[width=\textwidth]{knee_heel.png}
+  \includegraphics[width=0.9\textwidth]{knee_heel.png}
 \end{frame}
 
 % \begin{frame}{Cosmic ray flux}
@@ -230,8 +230,28 @@
 %   \end{itemize}
 % \end{frame}
 
+\begin{frame}{Air shower model (Heitler-Matthews)}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics[width=0.8\textwidth]{HM_model.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item shower simplified to pions
+        \item charged pions decay to muons at low energies (end of cascade)
+        \item neutral pions decay directly and form em-shower
+      \end{itemize}
+      Most muons and neutrinos produced come from the end of the hadronic cascade
+      \begin{itemize}
+        \item hadronic interactions need to be studied further
+        \item soft hadronic cascades in forward direction
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 \begin{frame}{Pierre Auger Observatory}
-  \includegraphics[width=0.7\textwidth]{pierre.png}
+  \includegraphics[width=0.6\textwidth]{auger_both.jpg}
 \end{frame}
 
 \begin{frame}\frametitle{Pierre Auger Experiment}
@@ -258,30 +278,15 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{Air showers in real life}
-  \begin{columns}
-    \begin{column}[c]{0.48\textwidth}
-      \includegraphics[width=0.8\textwidth]{shower.png}
-    \end{column}
-    \begin{column}[c]{0.48\textwidth}
-      \begin{itemize}
-        \item CR interaction with atmosphere; production of daughter particles
-        \item generation of em- and hadronic cascades
-        \item primary particles: $\pi^0 \to \gamma \to e^{\pm}$...
-        \item $\pi^{\pm} \to \mu^{\pm}$ , \nu
-      \end{itemize}
-    \end{column}
-  \end{columns}
-\end{frame}
-
-\begin{frame}\frametitle{air shower detection}
+\begin{frame}\frametitle{Cosmic Ray detection}
+  What is needed for a cosmic rays detection?
   \begin{itemize}
-    \item fluorescence light from nitrogen
-    \item Cherenkov light in water tanks at ground level
-    \item accurate arrival direction and particle composition at ground -> muon number (10 - 100 GeV)
-    \item better accuracy: build ground array close to $X_{max}$ (maximum number of secondary particles)
-    \item golden standard: use both to test hadronic interaction models
+    \item $\symbf{Energy}$ from size of of the em-component
+    \item Arrival $\symbf{direction}$ $\phi$, $\theta$ from the particles
+    \item $\symbf{Mass}$ from depth of shower maximum and muon number
   \end{itemize}
+  $X_{max} =$ depth where the number of secondary particles reaches a maximum \\
+  $N_{\mu} =$ Number of muons
 \end{frame}
 
 \begin{frame}\frametitle{mean logarithmic mass prediction}
@@ -292,10 +297,11 @@
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
         \item search dominant sources of CR -> for low fluxes need air showers
-        \item Air showers are indirectly observed and mass composition can only be sumarized by the logarithmic mass ln(A) (for E above PeV)
+        \item Air showers are indirectly observed; mass composition sumarized by
+        mean logarithmic mass <lnA> %for E above PeV
         \item -> why? because of the intrinsic fluctuations inside the air showers
-        \item ln(A) for several source classes shown
-        \item precise measurements can rule out competing theories (e.g CR with highest energies are light or heavy)
+        \item precise measurements can rule out competing theories (e.g CR with
+        highest energies are light or heavy)
       \end{itemize}
     \end{column}
   \end{columns}
@@ -309,19 +315,42 @@
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
         \item bands constructed from several measurements on air showers
-        \item mass-sensitive features: shower depth maximum $X_{max}$ and muon Number $N_{\mu}$
+        \item mass-sensitive features: $X_{max}$, $N_{\mu}$
         \item band width \to theoretical uncertainties (forward hadron production)
         \item uncertainties prevent exclusion of theories on the CR origin
         \item $N_{\mu}$ good discrimination between light and heavy rays at EeV scale
         \item more usefull than $X_{max}$ because of few statistics of flourescence
-        \item experimental uncertainy is 10\%
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
+\begin{frame}\frametitle{CR mass composition}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{figure}
+        \includegraphics[width=0.8\textwidth]{lnA_all.png}
+        \caption{Based on Kampert and Unger, Astropart. Phys. 35 (2012) 660}
+      \end{figure}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      What are the origins of cosmic rays?
+      \begin{itemize}
+        \item Mass composition (<lnA>) of CR provides information about source and propagation
+        \item uncertainties of <lnA> confined by uncertainty of hadronic interaction model
+        \item \textbf{Muon Puzzle}: Predicted number of muons in air showers higher than in simulations
+      \end{itemize}
+    \end{column}
+  \end{columns}
+  Possible solution from already taken data at the LHC
+  \begin{itemize}
+    \item forward production cross-section of $\pi$, K, p
+    \item forward measurements of $R = (E_{\pi^0}) / (E_\text{other hadrons})$ of em-cascades
+  \end{itemize}
+\end{frame}
+
 \begin{frame}\frametitle{experimental uncertainty}
-  \includegraphics[width=0.8\textwidth]{unc.png}
+  \includegraphics[width=0.9\textwidth]{unc.png}
 \end{frame}
 
 \begin{frame}\frametitle{experimental uncertainty measurements}
@@ -335,48 +364,76 @@
       \end{itemize}
 \end{frame}
 
-\begin{frame}{$N_\mu$ calculation from simulation}
+\begin{frame}{Muon deficit in simulation}
+  WHISP: Working group for Hadronic Interactions and Shower Physics \\
+  formed by several experiments to increase significance by viewing more phase space \\
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
-      \includegraphics{HM_model.png}
+      \includegraphics[width=0.7\textwidth]{z_zmass.png}
     \end{column}
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
-        \item Solving the puzzle requires improvements of simulation -> solving cascade equations
-        \item Heitler-Matthews model connects quantities: primary E, $N_{\mu}$, $X_{max}$
-        \item low energiy event generators have small impact on muon number (too small to be tye cause) -> look at higher energies
-        \item hadronic interaction model largest source of uncertainties
+        \item Calibrate diverse measurements to common, abstract z-scale
+        \item $z = \frac{\symup{ln}N_\mu - \symup{ln}N_{\mu,p}^\text{sim}}
+        {\symup{ln}N_{\mu,FE}^\text{sim} - \symup{ln}N_{\mu,p}^\text{sim}}$
+        \item to cancel potential biases, insensitive to mismodelling of $N_{\mu}$
+        \item Deficit in air shower sim. visible around $\SI{1e16}{\electronvolt}$ or 8 TeV
+        \item Slope is non-zero at 8\sigma
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
-\begin{frame}{WHISP group and discrepancy measurements}
-  \begin{itemize}
-    \item WHISP : Working group for Hadronic Interactions and Shower Physics
-    \item formed by several experiments to increase significance by viewing more phase space
-    \item develop common framework to compare measurements, direct comparison often not possible (shower age, E, lateral distance from axis, ...)
-    \item Pierre Auger was first with nearly model-independent measurement
-    \item abstract muon z-scale: $z = \frac{ln(N_\mu) - ln(N_\mu)_p}{ln(N_\mu)_{FE} - ln(N_\mu)_p}$
-    \item to cancel potential biases, insensitive to mismodelling of $N_{\mu}$
-    \item range: 0 < z < 1
-  \end{itemize}
+\begin{frame}{The LHCb experiment}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics[width=0.8\textwidth]{lhcb_side.jpg}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item fully instrumented at 2 < \eta < 5
+        \item good particle identification (optimal for \mu, p, $K^{\pm}$, $\pi^{\pm}$)
+        \item very good momentum and vertex resolution
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Using the LHC for air showers}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics[width=0.8\textwidth]{lhc_shower.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item p-O collisions similar to air shower interactions
+        \item needed: pp, p-Pb, p-O for nuclear effects
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{impact of LHC measurements}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics{x_max_impact.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item impact of R ratio (fig 11 in paper)
+      \end{itemize}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 % combine that with recap: just say what is puzzling again
-\begin{frame}{Now what is puzzling?}
-  \begin{itemize}
-    \item LHC has state-of-the-art soft hadronic interaction models $=$ generators
-    \item generators always predict a lower muon Number than seen in measurements
-    \item prediction is nearly model-independent \to only small wiggle room
-    \item why not observed yet at LHC?
-    \item have not looked at the right spot! wrong eta range for soft hadronic interactions (eta >= 2)
-  \end{itemize}
-\end{frame}
-
-% \begin{frame}\frametitle{Muon Messungen und Modelle}
+% \begin{frame}{Now what is puzzling?}
 %   \begin{itemize}
-%     \item d
+%     \item LHC has state-of-the-art soft hadronic interaction models $=$ generators
+%     \item generators always predict a lower muon Number than seen in measurements
+%     \item prediction is nearly model-independent \to only small wiggle room
+%     \item why not observed yet at LHC?
+%     \item have not looked at the right spot! wrong eta range for soft hadronic interactions (eta >= 2)
 %   \end{itemize}
 % \end{frame}
 
@@ -411,8 +468,8 @@
 \url{https://www.cta-observatory.org/pevatrons-hunt-for-galactic-cosmic-rays/} \\
 \url{https://arxiv.org/pdf/2105.06148.pdf} \\
 \url{https://doi.org/10.1007/978-3-319-63411-1_1} \\
-% \url{https://baikalgvd.jinr.ru/} \\
-% \url{https://masterok.livejournal.com/2364208.html} \\
+\url{https://www.sciencedirect.com/science/article/pii/S0927650512000382} \\
+\url{https://cerncourier.com/a/lhcbs-momentous-metamorphosis/} \\
 % \url{https://arxiv.org/pdf/1412.5106.pdf} \\
 % \url{https://www.epj-conferences.org/articles/epjconf/pdf/2019/14/epjconf_ricap2019_01015.pdf} \\
 % \url{https://pos.sissa.it/358/890/pdf} \\
