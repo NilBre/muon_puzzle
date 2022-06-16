@@ -142,6 +142,9 @@
   mathrm=sym,
 }
 
+\setbeamertemplate{itemize item}{\scriptsize$\blacktriangleright$}
+\setbeamertemplate{itemize subitem}{\scriptsize$\blacktriangleright$}
+
 %Titel:
 \title{The Muon Puzzle in Cosmic Ray Induced Air Showers}
 %Autor
@@ -161,33 +164,30 @@
     \begin{itemize}
       \item Cosmic rays and their behaviour with the atmosphere
       \item Air showers and their properties
-      \item Muon discrepancy between simulation and experiment (8\sigma offset)
+      \item Muon discrepancy between simulation and experiment (8$\sigma$ offset)
       \item experimental validation through WHISP group
     \end{itemize}
     \item Muon Puzzle might suggest mismodelling QCD
     \begin{itemize}
-      \item Hints towards new-physics
+      \item Nuclear effects important
       \item forwards hadron production studies from LHC data
-      \item important light hadrons
     \end{itemize}
   \end{itemize}
 \end{frame}
 
-% \begin{frame}\frametitle{The Muon Puzzle}
-%   \begin{itemize}
-%     \item indirect observation of cosmic rays through air showers in atmosphere
-%     \item interpretation -> models for air shower physics (QCD extreme, large E)
-%     \item $N_\mu$ key observable for mass composition of CR
-%     \item Simulation shows drastic Muon deficit compared to measurement
-%     \item Muon discrepancy starts right after the "knee", increases with $ln(shower E)$
-%     \item Discrepancy also seen in showers where first interaction of the CR has cms $=$ 8 TeV
-%   \end{itemize}
-% \end{frame}
+\begin{frame}\frametitle{Where do we see the Muon Puzzle?}
+  \begin{itemize}
+    \item Studies about high-energy cosmic rays through extensive air showers
+    \item interpretation through models -> QCD under extreme conditions
+    \item understanding the mass composition through $N_\mu$ observable
+    \item Simulation deficit compared to measurement starting at TeV scale
+  \end{itemize}
+\end{frame}
 
 \begin{frame}\frametitle{Cosmic rays}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
-      \includegraphics[width=0.9\textwidth]{CR_cta.png}
+      \includegraphics[width=\textwidth]{CR_cta.png}
     \end{column}
     \begin{column}[c]{0.48\textwidth}
       \textbf{Messengers of high-energy universe}
@@ -233,7 +233,7 @@
 \begin{frame}{Air shower model (Heitler-Matthews)}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
-      \includegraphics[width=0.8\textwidth]{HM_model.png}
+      \includegraphics[width=\textwidth]{HM_model.png}
     \end{column}
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
@@ -241,7 +241,7 @@
         \item charged pions decay to muons at low energies (end of cascade)
         \item neutral pions decay directly and form em-shower
       \end{itemize}
-      Most muons and neutrinos produced come from the end of the hadronic cascade
+      \textbf{Most muons and neutrinos produced come from the end of the hadronic cascade}
       \begin{itemize}
         \item hadronic interactions need to be studied further
         \item soft hadronic cascades in forward direction
@@ -251,13 +251,16 @@
 \end{frame}
 
 \begin{frame}{Pierre Auger Observatory}
-  \includegraphics[width=0.6\textwidth]{auger_both.jpg}
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{auger_both.jpg}
+  \end{figure}
 \end{frame}
 
 \begin{frame}\frametitle{Pierre Auger Experiment}
   \begin{itemize}
     \item located in Argentina
-    \item CR Energies between $\num{1e17}$ and $\num{1e20}$ eV
+    \item CR Energies observation between $\num{1e17}$ and $\num{1e20}$ eV
     \item studies particle interactions with water tanks at surface
     \item tracking air showers through UV light in atmosphere
     \item ground: duty cycle roughly 100\%
@@ -265,23 +268,26 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}{The Telescope Array}
-  \includegraphics[width=0.7\textwidth]{TCA.png}
-\end{frame}
+% \begin{frame}{The Telescope Array}
+%   \begin{figure}
+%     \centering
+%     \includegraphics[width=0.7\textwidth]{TCA.png}
+%   \end{figure}
+% \end{frame}
 
-\begin{frame}\frametitle{Telescope Array}
-  \begin{itemize}
-    \item hybrid experiment from many collaborations
-    \item observe air showers from CR at highest energies
-    \item combination of air-flourescence (atmospheric trace) and ground-based
-    \item scintillating trackers (footprint when reaching the surface)
-  \end{itemize}
-\end{frame}
+% \begin{frame}\frametitle{Telescope Array}
+%   \begin{itemize}
+%     \item hybrid experiment from many collaborations (US, Japan, Korea, Russia, Belgium)
+%     \item observe air showers from CR at highest energies
+%     \item combination of air-flourescence (atmospheric trace) and ground-based
+%     \item scintillating trackers (footprint when reaching the surface)
+%   \end{itemize}
+% \end{frame}
 
 \begin{frame}\frametitle{Cosmic Ray detection}
-  What is needed for a cosmic rays detection?
+  \textbf{What is needed for a cosmic rays detection?}
   \begin{itemize}
-    \item $\symbf{Energy}$ from size of of the em-component
+    \item $\symbf{Energy}$ from size of the electromagnetic component
     \item Arrival $\symbf{direction}$ $\phi$, $\theta$ from the particles
     \item $\symbf{Mass}$ from depth of shower maximum and muon number
   \end{itemize}
@@ -299,7 +305,7 @@
         \item search dominant sources of CR -> for low fluxes need air showers
         \item Air showers are indirectly observed; mass composition sumarized by
         mean logarithmic mass <lnA> %for E above PeV
-        \item -> why? because of the intrinsic fluctuations inside the air showers
+        \item because of the intrinsic fluctuations inside the air showers
         \item precise measurements can rule out competing theories (e.g CR with
         highest energies are light or heavy)
       \end{itemize}
@@ -334,7 +340,7 @@
       \end{figure}
     \end{column}
     \begin{column}[c]{0.48\textwidth}
-      What are the origins of cosmic rays?
+      \textbf{What are the origins of cosmic rays?}
       \begin{itemize}
         \item Mass composition (<lnA>) of CR provides information about source and propagation
         \item uncertainties of <lnA> confined by uncertainty of hadronic interaction model
@@ -342,43 +348,43 @@
       \end{itemize}
     \end{column}
   \end{columns}
-  Possible solution from already taken data at the LHC
+  \textbf{Possible solution from already taken data at the LHC}
   \begin{itemize}
     \item forward production cross-section of $\pi$, K, p
     \item forward measurements of $R = (E_{\pi^0}) / (E_\text{other hadrons})$ of em-cascades
   \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{experimental uncertainty}
-  \includegraphics[width=0.9\textwidth]{unc.png}
-\end{frame}
-
-\begin{frame}\frametitle{experimental uncertainty measurements}
-    \begin{itemize}
-      \item precise air shower measurements
-      \item experimental uncertainty is 10\%
-      \item factor 2.5 to 4 (E dependent) small than band width (theoretical unc.)
-      \item theo. unc. comes from shower simulation used to infer $ln(A)$ from $X_{max}$ and $N_{\mu}$
-      \item simulation essential: no way of calibrating since mass composition of any astrophysical source unknown
-      \item uncertainty from evolution of hadronic cascades; responsible for muon production at the end
-      \end{itemize}
-\end{frame}
+% \begin{frame}\frametitle{experimental uncertainty}
+%   \includegraphics[width=0.9\textwidth]{unc.png}
+% \end{frame}
+%
+% \begin{frame}\frametitle{experimental uncertainty measurements}
+%     \begin{itemize}
+%       \item precise air shower measurements
+%       \item experimental uncertainty is 10\%
+%       \item factor 2.5 to 4 (E dependent) small than band width (theoretical unc.)
+%       \item theo. unc. comes from shower simulation used to infer $ln(A)$ from $X_{max}$ and $N_{\mu}$
+%       \item simulation essential: no way of calibrating since mass composition of any astrophysical source unknown
+%       \item uncertainty from evolution of hadronic cascades; responsible for muon production at the end
+%       \end{itemize}
+% \end{frame}
 
 \begin{frame}{Muon deficit in simulation}
   WHISP: Working group for Hadronic Interactions and Shower Physics \\
   formed by several experiments to increase significance by viewing more phase space \\
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
-      \includegraphics[width=0.7\textwidth]{z_zmass.png}
+      \includegraphics[width=\textwidth]{z_zmass.png}
     \end{column}
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
         \item Calibrate diverse measurements to common, abstract z-scale
-        \item $z = \frac{\symup{ln}N_\mu - \symup{ln}N_{\mu,p}^\text{sim}}
-        {\symup{ln}N_{\mu,FE}^\text{sim} - \symup{ln}N_{\mu,p}^\text{sim}}$
+        \item $z = \frac{\symup{ln}N_\mu \,-\, \symup{ln}N_{\mu,p}^\text{sim}}
+        {\symup{ln}N_{\mu,FE}^\text{sim} \,-\, \symup{ln}N_{\mu,p}^\text{sim}}$
         \item to cancel potential biases, insensitive to mismodelling of $N_{\mu}$
-        \item Deficit in air shower sim. visible around $\SI{1e16}{\electronvolt}$ or 8 TeV
-        \item Slope is non-zero at 8\sigma
+        \item Deficit in air shower sim. visible around $\SI{8e16}{\electronvolt}$ (8 TeV)
+        \item Slope is non-zero at 8$\sigma$
       \end{itemize}
     \end{column}
   \end{columns}
@@ -387,12 +393,12 @@
 \begin{frame}{The LHCb experiment}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
-      \includegraphics[width=0.8\textwidth]{lhcb_side.jpg}
+      \includegraphics[width=\textwidth]{lhcb_side.jpg}
     \end{column}
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
-        \item fully instrumented at 2 < \eta < 5
-        \item good particle identification (optimal for \mu, p, $K^{\pm}$, $\pi^{\pm}$)
+        \item fully instrumented at 2 < $\eta$ < 5 -> soft hadronic interactions
+        \item good particle identification (optimal for $\mu$, p, $K^{\pm}$, $\pi^{\pm}$)
         \item very good momentum and vertex resolution
       \end{itemize}
     \end{column}
@@ -402,7 +408,7 @@
 \begin{frame}{Using the LHC for air showers}
   \begin{columns}
     \begin{column}[c]{0.48\textwidth}
-      \includegraphics[width=0.8\textwidth]{lhc_shower.png}
+      \includegraphics[width=\textwidth]{lhc_shower.png}
     \end{column}
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
@@ -420,45 +426,60 @@
     \end{column}
     \begin{column}[c]{0.48\textwidth}
       \begin{itemize}
-        \item impact of R ratio (fig 11 in paper)
+        \item modified hadron multiplicity $N_\text{mult}$
+        \item modified R ratio $= \frac{E_{\pi^0}}{E_\text{other hadrons}}$
+        \item top left: pure iron shower, bottom right: pure proton shower
+        \item grey: standard prediction from EPOS-LHC model
+        \item muon discrepancy: distance between auger data and grey
+        \item -> nuclear modifications for forward-produced hadrons
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
-% combine that with recap: just say what is puzzling again
-% \begin{frame}{Now what is puzzling?}
-%   \begin{itemize}
-%     \item LHC has state-of-the-art soft hadronic interaction models $=$ generators
-%     \item generators always predict a lower muon Number than seen in measurements
-%     \item prediction is nearly model-independent \to only small wiggle room
-%     \item why not observed yet at LHC?
-%     \item have not looked at the right spot! wrong eta range for soft hadronic interactions (eta >= 2)
-%   \end{itemize}
-% \end{frame}
+\begin{frame}{Nuclear effects in forward production}
+  \begin{columns}
+    \begin{column}[c]{0.48\textwidth}
+      \includegraphics[width=\textwidth]{suppression.png}
+    \end{column}
+    \begin{column}[c]{0.48\textwidth}
+      \begin{itemize}
+        \item close to 50\% suppression for forward direction
+        \item strong suppression in CR pseudorapidity range
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
 
 \begin{frame}\frametitle{Why is solving the puzzle necessary?}
   \begin{itemize}
-    \item reduce the size of $N_\mu$ bands by a factor of 2.5 to 4
-    \item resolve ambiguity (mehrdeutigkeit) of cosmic ray mass composition at EeV level
+    \item resolve ambiguity of cosmic ray mass composition at EeV level
     \item improve hadronic interaction models for CR mass composition in simulation
     \item more precision of lepton flux, main background for IceCube
   \end{itemize}
 \end{frame}
 
 %%% hier muss siunitx eingebunden werden
-\begin{frame}\frametitle{Possible solutions to the Puzzle}
+% \begin{frame}\frametitle{Possible solutions to the Puzzle}
+%   \begin{itemize}
+%     \item use LHCb as instrumentation device because it has the correct eta range (2 to 5)
+%   \end{itemize}
+% \end{frame}
+
+\begin{frame}\frametitle{Possible solutions}
   \begin{itemize}
-    \item use LHCb as instrumentation device because it has the correct eta range (2 to 5)
+    \item increase muon number by reducing energy fraction lost to photon production ($\pi^0$ decay)
+    \item highest energy CR have heavy nuclei -> first interaction creates quark-gluon plasma -> shift equilibrium to an enhanced strangeness state (40\% more muons)
   \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{Recap}
+\begin{frame}\frametitle{Summary}
   \begin{itemize}
-    \item Muon deficit clearly visible in air showers with 8\sigma
-    \item IceCube and the Pierre Auger experiment made huge contributions to model-dependent measurements
-    \item $\sqrt{S_{NN}} \approx \SI{8}{\tera\electronvolt}$with linear increase in $\symup{log}(E)$ -> high energy measurements at LHC
-    \item small modifications in hadron production reduce energy contribution of photons, coming from $\pi^{0}$ decays
+    \item muon deficit experimentally established with 8$\sigma$ evidence
+    \item $\sqrt{s_{NN}} = 8$TeV: should be observable at LHC
+    \item most likely explanation: modification in hadron production (photon energy fraction)
+    \item ALICE observed enhanced strangeness in mid-rapidity which would match but needs to be studied further
+    \item LHCb needed to perform missing measurements
   \end{itemize}
 \end{frame}
 
