@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2022.2.5)  16 JUN 2022 16:10
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2022.2.5)  4 JUL 2022 12:09
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -909,12 +909,12 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Module polyglossia Info: Language data for german
-(polyglossia)            righthyphenmin	2
-(polyglossia)            hyphenation	
-(polyglossia)            loader	loadhyph-de-1901.tex
 (polyglossia)            patterns	hyph-de-1901.pat.txt
 (polyglossia)            synonyms	
-(polyglossia)            lefthyphenmin	2 on input line 10
+(polyglossia)            hyphenation	
+(polyglossia)            loader	loadhyph-de-1901.tex
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            righthyphenmin	2 on input line 10
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 10
 Package polyglossia Info: Option: German, spelling=new.
@@ -2565,12 +2565,12 @@ LaTeX Info: Redefining \rmfamily on input line 22.
 LaTeX Info: Redefining \sffamily on input line 22.
 LaTeX Info: Redefining \ttfamily on input line 22.
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            righthyphenmin	2
-(polyglossia)            hyphenation	
-(polyglossia)            loader	loadhyph-de-1996.tex
 (polyglossia)            patterns	hyph-de-1996.pat.txt
 (polyglossia)            synonyms	
-(polyglossia)            lefthyphenmin	2 on input line 22
+(polyglossia)            hyphenation	
+(polyglossia)            loader	loadhyph-de-1996.tex
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            righthyphenmin	2 on input line 22
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 22
 )
@@ -2903,10 +2903,10 @@ Package luatex.def Info: logos/tu.pdf  used on input line 185.
  [3
 
 ]
-<CR_cta.png, id=39, 770.88pt x 641.39626pt>
-File: CR_cta.png Graphic file (type png)
-<use CR_cta.png>
-Package luatex.def Info: CR_cta.png  used on input line 201.
+<plots/CR_cta.png, id=39, 770.88pt x 641.39626pt>
+File: plots/CR_cta.png Graphic file (type png)
+<use plots/CR_cta.png>
+Package luatex.def Info: plots/CR_cta.png  used on input line 201.
 (luatex.def)             Requested size: 204.11534pt x 169.82239pt.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
 (Font)              scaled to size 7.55379pt on input line 201.
@@ -2916,7 +2916,7 @@ Package luatex.def Info: logos/tu.pdf  used on input line 201.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
  [4
 
-<./CR_cta.png>]
+<./plots/CR_cta.png>]
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
 (Font)              scaled to size 5.5012pt on input line 217.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
@@ -2940,10 +2940,10 @@ Package luatex.def Info: logos/tu.pdf  used on input line 217.
  [5
 
 ]
-<knee_heel.png, id=51, 445.665pt x 223.58531pt>
-File: knee_heel.png Graphic file (type png)
-<use knee_heel.png>
-Package luatex.def Info: knee_heel.png  used on input line 221.
+<plots/knee_heel.png, id=51, 445.665pt x 223.58531pt>
+File: plots/knee_heel.png Graphic file (type png)
+<use plots/knee_heel.png>
+Package luatex.def Info: plots/knee_heel.png  used on input line 221.
 (luatex.def)             Requested size: 382.71707pt x 192.00667pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
@@ -2951,11 +2951,11 @@ Package luatex.def Info: logos/tu.pdf  used on input line 221.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
  [6
 
-<./knee_heel.png>]
-<HM_model.png, id=58, 250.68657pt x 237.13594pt>
-File: HM_model.png Graphic file (type png)
-<use HM_model.png>
-Package luatex.def Info: HM_model.png  used on input line 251.
+<./plots/knee_heel.png>]
+<plots/HM_model.png, id=58, 250.68657pt x 237.13594pt>
+File: plots/HM_model.png Graphic file (type png)
+<use plots/HM_model.png>
+Package luatex.def Info: plots/HM_model.png  used on input line 251.
 (luatex.def)             Requested size: 204.11534pt x 193.0922pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
@@ -2963,11 +2963,11 @@ Package luatex.def Info: logos/tu.pdf  used on input line 251.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
  [7
 
-<./HM_model.png>]
-<auger_both.jpg, id=65, 813.0375pt x 691.08188pt>
-File: auger_both.jpg Graphic file (type jpg)
-<use auger_both.jpg>
-Package luatex.def Info: auger_both.jpg  used on input line 258.
+<./plots/HM_model.png>]
+<plots/auger_both.jpg, id=65, 813.0375pt x 691.08188pt>
+File: plots/auger_both.jpg Graphic file (type jpg)
+<use plots/auger_both.jpg>
+Package luatex.def Info: plots/auger_both.jpg  used on input line 258.
 (luatex.def)             Requested size: 255.14903pt x 216.86943pt.
 
 Overfull \vbox (20.6864pt too high) detected at line 258
@@ -2979,7 +2979,7 @@ Package luatex.def Info: logos/tu.pdf  used on input line 258.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 [8
 
-<./auger_both.jpg>]
+<./plots/auger_both.jpg>]
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
 (Font)              scaled to size 4.43153pt on input line 269.
 File: logos/tu.pdf Graphic file (type pdf)
@@ -2996,10 +2996,10 @@ Package luatex.def Info: logos/tu.pdf  used on input line 296.
  [10
 
 ]
-<lnA_left.png, id=81, 215.30438pt x 167.12437pt>
-File: lnA_left.png Graphic file (type png)
-<use lnA_left.png>
-Package luatex.def Info: lnA_left.png  used on input line 314.
+<plots/lnA_left.png, id=81, 215.30438pt x 167.12437pt>
+File: plots/lnA_left.png Graphic file (type png)
+<use plots/lnA_left.png>
+Package luatex.def Info: plots/lnA_left.png  used on input line 314.
 (luatex.def)             Requested size: 215.30385pt x 167.12395pt.
 
 Overfull \hbox (11.1885pt too wide) in paragraph at lines 314--314
@@ -3012,11 +3012,11 @@ Package luatex.def Info: logos/tu.pdf  used on input line 314.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 [11
 
-<./lnA_left.png>]
-<lnA_right.png, id=89, 214.55156pt x 170.13562pt>
-File: lnA_right.png Graphic file (type png)
-<use lnA_right.png>
-Package luatex.def Info: lnA_right.png  used on input line 332.
+<./plots/lnA_left.png>]
+<plots/lnA_right.png, id=89, 214.55156pt x 170.13562pt>
+File: plots/lnA_right.png Graphic file (type png)
+<use plots/lnA_right.png>
+Package luatex.def Info: plots/lnA_right.png  used on input line 332.
 (luatex.def)             Requested size: 214.55103pt x 170.1352pt.
 
 Overfull \hbox (10.43568pt too wide) in paragraph at lines 332--332
@@ -3029,11 +3029,11 @@ Package luatex.def Info: logos/tu.pdf  used on input line 332.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 [12
 
-<./lnA_right.png>]
-<lnA_all.png, id=96, 341.02406pt x 263.48438pt>
-File: lnA_all.png Graphic file (type png)
-<use lnA_all.png>
-Package luatex.def Info: lnA_all.png  used on input line 356.
+<./plots/lnA_right.png>]
+<plots/lnA_all.png, id=96, 341.02406pt x 263.48438pt>
+File: plots/lnA_all.png Graphic file (type png)
+<use plots/lnA_all.png>
+Package luatex.def Info: plots/lnA_all.png  used on input line 356.
 (luatex.def)             Requested size: 163.2929pt x 126.1655pt.
 LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
 (Font)              scaled to size 6.79163pt on input line 356.
@@ -3043,11 +3043,11 @@ Package luatex.def Info: logos/tu.pdf  used on input line 356.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
  [13
 
-<./lnA_all.png>]
-<z_zmass.png, id=104, 457.71pt x 305.64188pt>
-File: z_zmass.png Graphic file (type png)
-<use z_zmass.png>
-Package luatex.def Info: z_zmass.png  used on input line 391.
+<./plots/lnA_all.png>]
+<plots/z_zmass.png, id=104, 457.71pt x 305.64188pt>
+File: plots/z_zmass.png Graphic file (type png)
+<use plots/z_zmass.png>
+Package luatex.def Info: plots/z_zmass.png  used on input line 391.
 (luatex.def)             Requested size: 204.11534pt x 136.30168pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
@@ -3055,23 +3055,23 @@ Package luatex.def Info: logos/tu.pdf  used on input line 391.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
  [14
 
-<./z_zmass.png>]
-<lhcb_side.jpg, id=111, 1003.75pt x 514.92375pt>
-File: lhcb_side.jpg Graphic file (type jpg)
-<use lhcb_side.jpg>
-Package luatex.def Info: lhcb_side.jpg  used on input line 406.
+<./plots/z_zmass.png>]
+<plots/lhcb_side.jpg, id=111, 1003.75pt x 514.92375pt>
+File: plots/lhcb_side.jpg Graphic file (type jpg)
+<use plots/lhcb_side.jpg>
+Package luatex.def Info: plots/lhcb_side.jpg  used on input line 406.
 (luatex.def)             Requested size: 204.11534pt x 104.71147pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 406.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [15
+[15
 
-<./lhcb_side.jpg>]
-<lhc_shower.png, id=117, 315.42844pt x 283.81032pt>
-File: lhc_shower.png Graphic file (type png)
-<use lhc_shower.png>
-Package luatex.def Info: lhc_shower.png  used on input line 420.
+<./plots/lhcb_side.jpg>]
+<plots/lhc_shower.png, id=117, 315.42844pt x 283.81032pt>
+File: plots/lhc_shower.png Graphic file (type png)
+<use plots/lhc_shower.png>
+Package luatex.def Info: plots/lhc_shower.png  used on input line 420.
 (luatex.def)             Requested size: 204.11534pt x 183.65604pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
@@ -3079,11 +3079,11 @@ Package luatex.def Info: logos/tu.pdf  used on input line 420.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
  [16
 
-<./lhc_shower.png>]
-<x_max_impact.png, id=124, 243.15843pt x 194.97844pt>
-File: x_max_impact.png Graphic file (type png)
-<use x_max_impact.png>
-Package luatex.def Info: x_max_impact.png  used on input line 438.
+<./plots/lhc_shower.png>]
+<plots/x_max_impact.png, id=124, 243.15843pt x 194.97844pt>
+File: plots/x_max_impact.png Graphic file (type png)
+<use plots/x_max_impact.png>
+Package luatex.def Info: plots/x_max_impact.png  used on input line 438.
 (luatex.def)             Requested size: 243.15784pt x 194.97795pt.
 
 Overfull \hbox (39.0425pt too wide) in paragraph at lines 438--438
@@ -3096,11 +3096,11 @@ Package luatex.def Info: logos/tu.pdf  used on input line 438.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
 [17
 
-<./x_max_impact.png>]
-<suppression.png, id=131, 310.15875pt x 281.55188pt>
-File: suppression.png Graphic file (type png)
-<use suppression.png>
-Package luatex.def Info: suppression.png  used on input line 452.
+<./plots/x_max_impact.png>]
+<plots/suppression.png, id=131, 310.15875pt x 281.55188pt>
+File: plots/suppression.png Graphic file (type png)
+<use plots/suppression.png>
+Package luatex.def Info: plots/suppression.png  used on input line 452.
 (luatex.def)             Requested size: 204.11534pt x 185.28778pt.
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
@@ -3108,7 +3108,7 @@ Package luatex.def Info: logos/tu.pdf  used on input line 452.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
  [18
 
-<./suppression.png>]
+<./plots/suppression.png>]
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 460.
@@ -3140,7 +3140,8 @@ File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf  used on input line 497.
 (luatex.def)             Requested size: 140.30132pt x 22.76271pt.
- [22
+
+[22
 
 ]
 \tf@nav=\write6
@@ -3202,8 +3203,7 @@ braces):
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
-
-(./build/example.aux
+ (./build/example.aux
 LaTeX Info: Redefining \rmfamily on input line 22.
 LaTeX Info: Redefining \sffamily on input line 22.
 LaTeX Info: Redefining \ttfamily on input line 22.
@@ -3214,7 +3214,7 @@ Package logreq Info: Writing requests to 'example.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 71394 strings out of 477811
+ 71418 strings out of 477811
  125016,3417909 words of node,token memory allocated
  7580 words of node memory still in use:
    75 hlist, 9 vlist, 5 rule, 4 disc, 13 local_par, 14 math, 181 glue, 40 kern, 
@@ -3224,7 +3224,7 @@ k, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
    avail lists: 1:10,2:390,3:199,4:228,5:397,6:39,7:2171,8:131,9:378,10:22,11:26
 9
  89559 multiletter control sequences out of 65536+600000
- 144 fonts using 49935719 bytes
+ 144 fonts using 49935879 bytes
  128i,18n,144p,1003b,2454s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/nils/.local/texlive/2021/texmf-dist/fonts/opentype/public/fira/FiraMono-R
 egular.otf></home/nils/.local/texlive/2021/texmf-dist/fonts/opentype/public/fira
